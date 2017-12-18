@@ -41,13 +41,13 @@ df_y$activity_name <- sapply(df_y$activity_value, get_activity_name,
 
 names(df_X) <- df_features$feature_name
 df <- cbind(df_X, df_subject, select(df_y, activity_name))
-write.csv(df, "merged_data.txt", row.names=FALSE)
+write.table(df, "merged_data.txt", row.names=FALSE)
 
 
 # 5. Create a second, independent data set with average for each activity and subject.
 g <- group_by(df, subject, activity_name)
 df_summarised <- summarise_all(g, mean)
-write.csv(df_summarised, "merged_data_summarised.txt", row.names=FALSE)
+write.table(df_summarised, "merged_data_summarised.txt", row.names=FALSE)
 
 # A plot, just because...
 # library(ggplot2)
