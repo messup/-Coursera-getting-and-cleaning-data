@@ -6,4 +6,4 @@ The data must first be placed in the working directory and may be acquired here:
 
 * `CodeBook.md` contains a detailed description of the solution to this assessment.
 
-* The `_analysis.R` file contains the code to collect the smartphone data and produce two `.csv` files containing summarised data. Note that the `data.7z` file must be extracted first.
+* The `_analysis.R` file contains the code to collect the smartphone data and produce two `.txt` files containing summarised data. Note that the `data.7z` file must be extracted first.

@@ -16,7 +16,7 @@ The names of the features used as columns in the `X` data are listed in `feature
 The activity names and their corresponding numbers were listed in `activity_labels.txt`. This was used add a column containing the name of the activity to the `y` data frame.
 
 ### Part 4: Appropriately label the data set with descriptive names
-The feature names had already been determined in Part 2, so here the `X` column names were updated accordingly. The `X`, `subject` and `Y` data are merged and saved as `merged_data.csv`.
+The feature names had already been determined in Part 2, so here the `X` column names were updated accordingly. The `X`, `subject` and `Y` data are merged and saved as `merged_data.txt`.
 
 ### Part 5: Create a second, independent data set with average for each activity and subject
-The `dplyr` library was used to group the data by `subject` and `activity_name` and calculate an average for each column. The data is saved as `merged_data_summarised.csv`.
+The `dplyr` library was used to group the data by `subject` and `activity_name` and calculate an average for each column. The data is saved as `merged_data_summarised.txt`.
